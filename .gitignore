@@ -1,0 +1,29 @@
+# MIT-BIH raw data (108 MB — download from physionet.org)
+mitdb/
+
+# Generated datasets and model weights
+dataset/
+model/
+
+# Results images are tracked in results/ — see below
+
+# Python virtual environment
+ecg_venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CSV recordings (may contain personal/medical data)
+*.CSV
+*.csv
